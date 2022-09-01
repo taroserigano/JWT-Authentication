@@ -26,6 +26,9 @@ JWT lets you have authentication system without for servers to store session ID 
 to make sure you are the right user. JWT use signup and verify, and lets you access across different sites and ports using this technology
 without having to store the session cookie data each time. 
 
+How JWT Works: 
+JWT contains :1. HEADER (encryption system), 2. payload data (like user.name) 3. secret key 
+When the token gets generated, it has aall three componenets encoded. 
 
 
 
